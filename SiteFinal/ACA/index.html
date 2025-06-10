@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Challenge | Age calculator app</title>
+
+  <link rel="stylesheet" type="text/css" media="screen" href="ACA.css">
+  <script src="ACA.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+  <div id="app">
+    <div id="data">
+      <p><b>DIA:----------------------------------------MÊS:------------------------------------------ANO:</b></p>
+      <input id="entrada_dia" type="number" maxlength="2" placeholder="DD"><input id="entrada_mes" type="number" maxlength="2" placeholder="MM"><input id="entrada_ano" type="number" maxlength="4" placeholder="YYYY">
+      <p><span id="span_alert_dia"></span><span id="span_alert_mes"></span><span id="span_alert_ano"></span></p>
+    </div>
+    
+    <div id="botao"><button id="btn_calcular" onclick="calcularIdade()"><img src="imagens/icon-arrow.svg"></button></div>
+
+    <p id="idade"><b><span id="calculo_anos">--</span></b> Anos<br>
+    <b><span id="calculo_meses">--</span></b> Meses<br>
+    <b><span id="calculo_dias">--</span></b> Dias</p>
+  </div>
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.workana.com/freelancer/f0eda4c2a553c7da8306a0ad70b9aaeb?utm_source=share-profile&utm_medium=email&utm_campaign=share-2023-07-16" target="_blank">Felipe Servare(LITLLE)</a>.
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

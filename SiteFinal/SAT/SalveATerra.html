@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>salve a terra</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="SAT.css">
+        <script src="SAT.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    </head>
+    <body background-color="black" onload="iniciaJogo()">
+        <div class="topo">
+            <table width=100%>
+                <tr>
+                    <td width=20%>
+                        <audio id="musica" controls autoplay>
+                            <source src="musicas/musica_SAT.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td>
+                        <h1 id="SAT">Salve a Terra!</h1>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="painel_lateral">
+            <table id="pontos">
+                <tr>
+                    <td><img src="imagens/meteoro.png" width="50px"></td>
+                    <td><span id="meteoros"></span></td>
+                </tr>
+                <tr>
+                    <td><img src="imagens/explosão.png" width="50px"></td>
+                    <td><span id="explosoes"></span></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td id="imagemCronometro">
+                        <span id="cronometro"></span>
+                    </td>
+                </tr>
+            </table>
+            <table id="botao_start">
+                <tr>
+                    <td>
+                        <button class="btn btn-danger" onclick="start()">start</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="cenario" class="terra"></div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    </body>
+</html>

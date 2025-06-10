@@ -1,0 +1,57 @@
+.attribution {
+    color: orange;
+    font-size: 12px;
+    font-family: comic sans MS;
+    text-align: center;
+}
+
+input {
+    border: 5px;
+    border-radius: 15px;
+    font-family: arial;
+    color: gray;
+    font-size: 15px;
+}
+
+span {
+    color: orangered;
+    font-family: arial;
+}
+
+#data {
+    padding-left: 250px;
+    padding-top: 100px;
+    font-family: comic sans MS;
+}
+
+#entrada_mes {
+    padding-left: 230px;
+}
+
+#span_alert_mes {
+    padding-left: 230px;
+}
+
+#entrada_ano {
+    padding-left: 250px;
+}
+
+#span_alert_ano {
+    padding-left: 250px;
+}
+
+#idade {
+    font-size: 3em;
+    font-family: comic sans MS;
+    padding-left: 250px;
+    padding-bottom: 300px;
+    padding-top: 100px;
+}
+
+#btn_calcular {
+    background-color: orangered;
+}
+
+#botao {
+    padding-left: 800px;
+}

@@ -1,0 +1,18 @@
+h1{
+    font-size: 4em;
+    font-family: Arial Black;
+    color: orangered;
+}
+
+.jogada {
+    width: 100px;
+    height: 100px;
+}
+
+.linhaDeBaixo {
+    border-bottom: solid 1px red;
+}
+
+.linhaDireita {
+    border-right: solid 1px red;
+}

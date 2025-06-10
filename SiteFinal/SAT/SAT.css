@@ -1,0 +1,42 @@
+#SAT {
+    color: red; padding-left: 200px; font-family: Arial Black;
+}
+
+.painel_lateral {
+    float: left;
+    background-color: khaki;
+    width: auto;
+    height: 500px;
+    margin-right: 5px;
+}
+
+#pontos {
+    float: center;
+}
+
+#botao_start {
+    float: center;
+}
+
+#imagemCronometro {
+    background: url(imagens/cronometro.png); background-repeat: no-repeat; text-align: center; width: 140px; height: 132px;
+}
+#cronometro {
+    color: red; font-size: 50px;
+}
+
+span {
+    font-size: 40px;
+}
+
+.terra {
+    float: left; width: 1000px; height: 500px;background: url(imagens/cenario.jpg);
+}
+
+.terraDestruida {
+    float: left; width: 1021px; height: 1024px; background: url(imagens/bomba.png); 
+}
+
+.terraSalva {
+    float: left; width: 1000px; height: 500px; background-repeat: no-repeat; background: url(imagens/vitoria.png);
+}
